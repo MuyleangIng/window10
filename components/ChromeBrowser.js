@@ -6,10 +6,10 @@ import { ArrowLeft, ArrowRight, RotateCcw, Home, Star, Menu, X, Search, Globe } 
 import styles from "./ChromeBrowser.module.css"
 
 export default function ChromeBrowser() {
-  const [url, setUrl] = useState("https://www.thefstack.com")
-  const [inputUrl, setInputUrl] = useState("www.thefstack.com")
+  const [url, setUrl] = useState("https://www.muyleanging.com")
+  const [inputUrl, setInputUrl] = useState("www.muyleanging.com")
   const [isLoading, setIsLoading] = useState(true)
-  const [history, setHistory] = useState(["https://www.thefstack.com"])
+  const [history, setHistory] = useState(["https://www.muyleanging.com"])
   const [historyIndex, setHistoryIndex] = useState(0)
   const [searchQuery, setSearchQuery] = useState("")
   const browserContentRef = useRef(null)
@@ -137,7 +137,7 @@ export default function ChromeBrowser() {
 
   const goHome = () => {
     setIsLoading(true)
-    const homeUrl = "https://www.thefstack.com"
+    const homeUrl = "https://www.muyleanging.com"
     setUrl(homeUrl)
 
     // Add to history
@@ -179,7 +179,7 @@ export default function ChromeBrowser() {
                   <path d="M6.5 14.5L9 9" stroke="#FBBC05" strokeWidth="4" strokeLinecap="round" />
                   <path d="M15 9L17.5 14.5" stroke="#34A853" strokeWidth="4" strokeLinecap="round" />
                 </svg>
-              ) : currentDomain.includes("thefstack") ? (
+              ) : currentDomain.includes("muyleanging") ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <rect width="24" height="24" rx="4" fill="#2563EB" />
                   <path d="M7 7H17V9H7V7Z" fill="white" />
