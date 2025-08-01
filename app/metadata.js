@@ -1,9 +1,9 @@
 export default function generateMetadata() {
-  const title = "Windows 10 UI Clone - Interactive Portfolio by thefstack"
+  const title = "Interactive Portfolio by IngMuyleang"
   const description =
-    "An interactive portfolio website designed as a Windows 10 desktop clone. Explore projects, skills, and professional information through a familiar Windows 10 interface."
-  const url = "https://portfolio.thefstack.com"
-  const ogImage = "https://portfolio.thefstack.com/images/og-image.png"
+      "An interactive portfolio website designed . Explore quantum computing research, AI convergence projects, and academic achievements through a familiar Windows 10 interface."
+  const url = "https://muyleanging.com"
+  const ogImage = "https://portfolio.ingmuyleang.com/images/og-image.png"
 
   return {
     title,
@@ -13,13 +13,13 @@ export default function generateMetadata() {
       title,
       description,
       url,
-      siteName: "thefstack Portfolio",
+      siteName: "IngMuyleang Portfolio",
       images: [
         {
           url: ogImage,
           width: 1200,
           height: 630,
-          alt: "Windows 10 UI Clone Portfolio",
+          alt: "Portfolio - IngMuyleang",
         },
       ],
       locale: "en_US",
@@ -30,7 +30,7 @@ export default function generateMetadata() {
       title,
       description,
       images: [ogImage],
-      creator: "@thefstack",
+      creator: "@muyleanging",
     },
     robots: {
       index: true,
@@ -46,21 +46,27 @@ export default function generateMetadata() {
     alternates: {
       canonical: url,
     },
-    authors: [{ name: "Raj Sharma", url: "https://github.com/thefstack" }],
-    creator: "Raj Sharma",
-    publisher: "thefstack",
+    authors: [{ name: "Ing Muyleang", url: "https://github.com/MuyleangIng" }],
+    creator: "Ing Muyleang",
+    publisher: "IngMuyleang",
     keywords: [
       "portfolio",
       "windows 10",
       "ui clone",
-      "web developer",
+      "quantum computing",
+      "quantum machine learning",
+      "quantum error correction",
       "react",
       "next.js",
       "interactive portfolio",
-      "raj sharma",
-      "thefstack",
-      "frontend developer",
-      "full stack developer",
+      "ing muyleang",
+      "ingmuyleang",
+      "quantum researcher",
+      "ai convergence",
+      "pknu",
+      "cambodian researcher",
+      "quantum cryptography",
+      "khmer nlp",
     ],
   }
 }
